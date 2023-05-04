@@ -12,20 +12,28 @@ The project I constructed is a fishing simulation program that uses the Balking 
 But, during the fishing process, sometimes we got the fish but sometimes accident happened, such as hook coming off or dislodged from the fish. So, I want to simulate the process with balking pattern, state pattern and multithread programming. 
 
 # GitHub Repository Link:
-https://github.com/{YOUR_USERNAME}/cs-665-assignment-{ASSIGNMENT_NUMBER}
+https://github.com/Hydr0li/FishingCounter
 
 # Implementation Description 
 
 
 For each assignment, please answer the following:
 
-- Explain the level of flexibility in your implementation, including how new object types can
-be easily added or removed in the future.
-- Discuss the simplicity and understandability of your implementation, ensuring that it is
-easy for others to read and maintain.
+- Explain the level of flexibility in your implementation, including how new object types can be easily added or removed in the future.
+
+  This code of fisherman and simulation are 2 seperate system, so the users are easy to use because our back-end guys only need to change the list of different customer type which will not affect service people use the email generator functions. 
+
+- Discuss the simplicity and understandability of your implementation, ensuring that it is easy for others to read and maintain.
+
+  I have the comment everywhere so they can read and understand, also, I have many classes, so that it makes users easily find what they need.
+
 - Describe how you have avoided duplicated code and why it is important.
-- If applicable, mention any design patterns you have used and explain why they were
-chosen.
+
+  Most the codes are made by myself and I did not use any open sourced resources including StackOverflow. 
+
+- If applicable, mention any design patterns you have used and explain why they were chosen.
+
+  I used balking pattern and state pattern, because sometimes accident happened and fish may come out of hook so we need balking pattern to terminate the code. 
 
 
 # Maven Commands
