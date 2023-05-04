@@ -1,13 +1,15 @@
 
 | CS-665       | Software Design & Patterns |
-|--------------|----------------------------|
-| Name         | FIRST_NAME LAST_NAME       |
-| Date         | MM/DD/YYYY                 |
-| Course       | Fall / Spring / Summer     |
-| Assignment # |                            |
+| ------------ | -------------------------- |
+| Name         | Haizhou Li                 |
+| Date         | 05/01/2023                 |
+| Course       | CS665 Fall 2023            |
+| Assignment # | Term Project               |
 
 # Assignment Overview
-Please add a paragraph or two overviewing the objectives of the assignment.
+The project I constructed is a fishing simulation program that uses the Balking pattern, state pattern and multithreaded programming to simulate a group of fishermen trying to catch fish in a lake.
+
+But, during the fishing process, sometimes we got the fish but sometimes accident happened, such as hook coming off or dislodged from the fish. So, I want to simulate the process with balking pattern, state pattern and multithread programming. 
 
 # GitHub Repository Link:
 https://github.com/{YOUR_USERNAME}/cs-665-assignment-{ASSIGNMENT_NUMBER}
@@ -106,7 +108,6 @@ mvn checkstyle:checkstyle
 
 The HTML page will be found at the following location:
 `target/site/checkstyle.html`
-
 
 
 
